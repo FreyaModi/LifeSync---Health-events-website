@@ -1,0 +1,22 @@
+.container-style{
+     background-size: cover;
+  /* height: 890px;
+  width:890px; */
+  /* position: fixed; */
+  position: relative;
+  background-position: center;
+  min-width: 100%;
+  height: 896px;
+}
+.slides-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slides-img span{
+    width: 45px;
+    height:12px;
+    background-color: rgb(243, 25, 25);
+    margin-left: 10px;
+     border-radius: 10px;
+}

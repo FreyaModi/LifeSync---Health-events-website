@@ -1,0 +1,323 @@
+
+.c-profile {
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.field-select{
+     margin-right: 15%;
+}
+.row-1{
+  margin-right: 15%;
+  
+}
+
+.field-select .btn1 {
+  background-color: #C08C46;
+  font-size: large;
+  color: beige;
+  margin: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.field-select .btn2 {
+  background-color: #C08C46;
+  font-size: large;
+  color: beige;
+  margin: 30px;
+  border: 1px solid beige;
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.field-select .btn12 {
+  background-color: #C08C46;
+  font-size: large;
+  color: beige;
+  margin: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.field-select .btn21 {
+  background-color: #C08C46;
+  font-size: large;
+  color: beige;
+  margin: 30px;
+  border: 1px solid beige;
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.field-select .btn1:hover,
+.btn2:hover {
+  background-color: #cc9e62;
+}
+
+.row-1 {
+  color: rgba(213, 106, 52, 1);
+}
+
+@media screen and (min-width: 700px) {
+  .c-profile {
+    display: list-item;
+  }
+}
+
+
+#form>input:focus {
+  outline: none;
+}
+
+/* .row-2{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 100%;
+    } */
+#form {
+  max-width: 360px;
+  width: 105vw;
+  margin: 2em auto;
+  object-fit: fill;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.col-2 {
+  margin-top: -20px;
+}
+
+.flex {
+  /* display: flex; */
+  gap: 1em;
+}
+
+.row-2 {
+  max-width: 1300px;
+  width: 100vw;
+  display: flex;
+  border: 0px solid #e9ecef;
+  border-radius: 5px;
+  margin-left: 5%;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+
+}
+
+.row-2 .col-1>input {
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+  font-size: 17px;
+  width: 465px;
+  margin: 45px;
+  margin-right: 55px;
+  margin-left: -9%;
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+.row-2 .col-1{
+  margin-left: 5%;
+}
+.row-2 .col-1 .selection1 {
+  width: 500px;
+  margin: 27px;
+  margin-top: 80px;
+  margin-left: 40px;
+
+}
+
+
+.c-profile .row-2 .col-1 .num-error label {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 10px;
+  margin-left: -100px;
+}
+.c-profile .row-2 .col-1 label {
+  position: absolute;
+  margin-top: -20px; 
+   margin-left: -100px;
+}
+
+.c-profile .row-2 .col-1  label {
+  position: absolute;
+  margin-top: -30px;
+}
+
+.c-profile .row-2 .col-1 .name-error label {
+  position: absolute;
+  margin-left: -60px;
+}
+
+.col-2 .label-2 {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 230px;
+}
+
+.row-2 p {
+  position: absolute;
+  margin-left: 230px;
+}
+
+.col-1 .num-error {
+  display: inline;
+}
+
+.col-1 .dob-error {
+  position: absolute;
+  margin-top: -20px;
+  width: 800px;
+}
+
+.row-2 .col-1 {
+  display: inline;
+}
+
+.row-2 .col-2 {
+  display: inline;
+  margin-left: 6%;
+}
+
+/* .column2  {
+      display: flex;
+       flex-wrap:wrap;
+       justify-content: center;
+       align-items: center;
+    } */
+.row-2 .col-2>textarea {
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+  font-size: 17px;
+  width: 465px;
+  margin: 45px;
+  margin-left: 55px;
+  margin-right: 35px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.row-2>input {
+  width: 360px;
+  margin: 2em auto;
+  object-fit: fill;
+}
+
+#form .row-3>.btn {
+  background-color: rgba(213, 106, 52, 1);
+  color: #e9ecef;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 20%;
+  margin-top: 5px;
+  width: 180px;
+  height: 45px;
+
+}
+
+#form .row-3>.btn:hover {
+  background-color: rgb(235, 144, 99);
+
+}
+
+.c-profile .col-2 .radio-btn label {
+  color: rgb(0, 0, 0);
+  margin: 15px;
+  margin-left: 45px;
+  margin-top: 45px;
+  padding: 35px;
+}
+.c-profile .col-1 .mobile-number{
+  display:flex;
+  
+}
+.c-profile .col-1 .mobile-number>input{
+border: 1px solid #e9ecef;
+padding: .9em 1em;
+font-size: 17px;
+width: 465px;
+margin: 45px;
+margin-right: 55px;
+margin-left: 35px;
+margin-top: 65px;
+margin-bottom: 50px;
+}
+.c-profile .col-1 .mobile-number>button{
+  margin-right: 100px;
+  height:40px;
+  width:40px;
+  margin-top: 70px;
+  margin-left: -30px;
+  font-size: 30px;
+  background-color: #C08C46;
+  border-radius: 8px;
+}
+.c-profile .col-1 .extras>input{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+  font-size: 17px;
+  width: 465px;
+  margin: 45px;
+  margin-right: 55px;
+  margin-left: 35px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+  }
+  .c-profile .col-1 .extras>button{
+    margin-right: 100px;
+    height:40px;
+    width:40px;
+    margin-top: -1px;
+    margin-left: -30px;
+    font-size: 30px;
+    background-color: #C08C46;
+    border-radius: 8px;
+  }
+.c-profile .col-2 .check p {
+  color: #3F170E;
+  margin: 15px;
+  margin-left: 45px;
+  margin-top: 45px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.c-profile .col-2 .radio-btn {
+
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.c-profile .col-2 .radio-btn .option-btn-1 {
+  margin-left: 25px;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.c-profile .col-2 .radio-btn .option-btn- {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-weight: 400;
+  justify-content: left;
+}

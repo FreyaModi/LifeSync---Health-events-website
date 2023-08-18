@@ -1,0 +1,100 @@
+.cards-1 {
+    border: 1px solid #fff;
+    background: #C08C46;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 30px;
+    height: 700px;
+   width: 430px;
+    color: #fff;
+    cursor: pointer;
+  
+  }
+  
+  .cards-top-1 h2 {
+    font-size: 1.3rem;
+    margin: 10px;
+  }
+  .cards-top-1{
+    height:770px;
+  }
+  .cards-top-1>img {
+    width: 100%;
+    object-fit: cover;  
+  }
+  .cards-top-1>img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background: #C08C46;
+  }
+
+  .cards-bottom-12 {
+    margin: 10px 20px;
+    display: flex;
+  }
+  
+  /* .category {
+    position: relative;
+  } */
+  .cards-1 .cards-bottom-lefts h4,p{
+    justify-content: left;
+    align-items:start;
+    text-align:left;
+  }
+  .cards-1 .cards-bottom-rights p{
+    justify-content:right;
+   margin-left: 85px;
+    text-align:right;
+   
+  }
+
+  .fieldselects .btn-121 {
+    background-color: #C08C46;
+    font-size: large;
+    color: beige;
+    margin: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .fieldselects .btn-211 {
+    background-color: #C08C46;
+    font-size: large;
+    color: beige;
+    margin: 30px;
+    border: 1px solid beige;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .grids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rowindexes {
+  
+    display: flex;
+    margin-right:10px ;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  
+  .colindexes {
+    width: 23%; /* Adjust as needed */
+  }
+  
+  .cards-1 {
+    border: 1px solid #ccc;
+    padding: 1px;
+    box-sizing: border-box;
+    /* height: 100%; Adjust this if needed */
+  }
+  

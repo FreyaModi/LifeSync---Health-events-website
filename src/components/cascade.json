@@ -1,0 +1,39 @@
+[
+    {
+        "evestype": "Yoga and Exercise events",
+        "event_code": "Yoga and Exercise events",
+        "subtypes": [
+            {
+                "sub": "Zumba",
+                "code": "Zumba"
+            },
+            {
+                "sub": "Yoga",
+                "code": "Yoga"
+            },
+            {
+                "sub": "Exercise",
+                "code": "Exercise"
+            },
+            {
+                "sub": "Meditation",
+                "code": "Meditation"
+            }
+        ]
+    },
+    {
+        "evestype": "Donation events",
+        "event_code": "Donation events",
+ 
+        "subtypes": [
+            {
+                "sub": "Organ Donation",
+                "code": "Organ Donation"
+            },
+            {
+                "sub": "Blood Donation",
+                "code": "Blood Donation"
+            }
+        ]
+    }
+]
